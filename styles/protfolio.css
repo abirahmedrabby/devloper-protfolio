@@ -1,0 +1,66 @@
+body{
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nave related style */
+.text-primary{
+   color: rgb(141, 9, 5);
+
+}
+nav {
+    display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 200px;
+
+
+}
+.titel {
+    color: #181818;
+font-size: 45px;
+font-weight: 800;
+
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+color:  black;
+
+
+}
+.btn-primary{
+    border-radius: 5px;
+    background: rgb(199, 75, 3);
+border: 0;
+color: var(--White-Color, #FFF);
+font-size: 20px;
+font-weight: 700;
+padding: 15px 35px;
+
+}
+/* headar related style  */
+.header{
+
+background-color: #FFF8F3;
+
+}
+ .banner{
+
+    padding:  30px 30px 30px 150px;   
+    display: flex;
+    align-items: center;
+ 
+ }
+ .banner .profile-pic{
+
+width: 400px;
+
+ }
