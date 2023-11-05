@@ -1,66 +1,141 @@
-body{
+body {
     font-family: 'Lobster', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 
 /* nave related style */
-.text-primary{
-   color: rgb(141, 9, 5);
+.text-primary {
+    color: rgb(141, 9, 5);
 
 }
+
 nav {
     display: flex;
-justify-content: space-between;
-align-items: center;
-margin: 0 200px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
 
 
 }
+
 .titel {
     color: #181818;
-font-size: 45px;
-font-weight: 800;
+    font-size: 45px;
+    font-weight: 800;
 
 }
+
 nav > ul {
     display: flex;
     align-items: center;
     margin: 0 200px;
 }
+
+
 nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a {
-color:  black;
 
+nav a {
+    color: black;
+    text-decoration: none;
 
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background: rgb(199, 75, 3);
-border: 0;
-color: var(--White-Color, #FFF);
-font-size: 20px;
-font-weight: 700;
-padding: 15px 35px;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 20px;
 
 }
+
 /* headar related style  */
-.header{
+.header {
 
-background-color: #FFF8F3;
-
+    background-color: #FFF8F3;
+background-image: url(/images/header_bg.png);
+background-repeat: no-repeat;
+background-position: bottom right;
 }
- .banner{
 
-    padding:  30px 30px 30px 150px;   
+.banner {
+
+    padding: 30px 30px 0px 200px;
     display: flex;
     align-items: center;
- 
- }
- .banner .profile-pic{
 
-width: 400px;
 
- }
+}
+
+.banner.profile-pic {
+
+    width: 40px;
+
+}
+.banner-conntain{
+
+    max-width: 500px;
+
+}
+
+.prfile-pic{
+    width: 500px;
+     margin-left: 200px;
+    
+    }
+  
+
+.banner-nametitel{
+font-size: 45px;
+color:  #474747;
+margin-top: 50x;
+}
+.banner-titel{
+    font-size: 85px;
+
+    font-weight: 700;
+
+color:  #181818;
+margin-bottom: 0;
+margin-bottom: 0px;
+}
+
+.banner-discription{
+margin-top: 20px;
+margin-bottom: 0px;
+
+}
+
+.btn-primary{
+
+margin-top: 39px;
+}
+
+/* main seacion style  */
+.section-titel{
+    color: var #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+      
+}
+.banner-discription{
+    color:  #757575;
+text-align: center;
+
+font-size: 18px;
+
+font-weight: 400;
+
+}
+.about{
+    padding: 130px;
+    border-radius: 10px;
+background: #FFF8F3;
+margin: 130px 0px;
+}
