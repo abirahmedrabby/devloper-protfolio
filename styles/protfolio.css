@@ -26,7 +26,7 @@ nav {
 
 }
 
-nav > ul {
+nav>ul {
     display: flex;
     align-items: center;
     margin: 0 200px;
@@ -46,51 +46,53 @@ nav a {
 
 .btn-primary {
     border-radius: 5px;
-background: #FD6E0A;
-border: 0;
-color: white;
-font-size: 20px;
-font-weight: 700px;
-padding: 13px ;
-} 
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 13px;
+}
 
 /* headar related style  */
- .header {
+.header {
 
     background-color: #FFF8F3;
-background-image: url(/images/header_bg.png);
-background-repeat: no-repeat;
-background-position: bottom right;
+    background-image: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 
 }
 
 .banner {
-padding: 30px 30px 0px 150px;
-display: flex;
-align-items: center;
-justify-content: space-between;
-   
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 .banner.profile-pic {
 
     width: 400px;
 }
-.banner-conntain{
+
+.banner-conntain {
 
     max-width: 500px;
 
 }
 
 
-  
 
-.banner-nametitel{
-font-size: 45px;
-color:  #474747;
-margin-top: 50px;
+
+.banner-nametitel {
+    font-size: 45px;
+    color: #474747;
+    margin-top: 50px;
 }
-.banner-titel{
+
+.banner-titel {
     /* font-size: 85px;
 
     font-weight: 700;
@@ -103,11 +105,11 @@ margin-bottom: 0px;
 
 
 
-color:  #181818;
+    color: #181818;
 
-font-size: 60px;
+    font-size: 60px;
 
-font-weight: 400px;
+    font-weight: 400px;
 
 
 
@@ -118,14 +120,14 @@ font-weight: 400px;
 
 }
 
-.banner-discription{
-  
+.banner-discription {
 
-color:  #757575;
 
-font-size: 18px;
+    color: #757575;
 
-font-weight: 200px;
+    font-size: 18px;
+
+    font-weight: 200px;
 
 
 
@@ -134,15 +136,23 @@ font-weight: 200px;
 
 
 /* main seacion style  */
-.main{
-    max-width: 1140px;
-height: 550px;
-flex-shrink: 0;
-margin: 0px auto;
 
+
+
+
+.main {
+    max-width: 1140px;
+    height: 550px;
+    flex-shrink: 0;
+    margin: 0px auto;
 }
 
-.section-titel{
+
+
+
+
+
+.section-titel {
     color: var #181818;
     text-align: center;
     font-size: 35px;
@@ -153,24 +163,25 @@ margin: 0px auto;
 }
 
 
-main section{
+main section {
     margin: 120px;
 }
 
- .banner-discription{
-    color:  #757575;
-text-align: center;
+.banner-discription {
+    color: #757575;
+    text-align: center;
 
-font-size: 15px;
+    font-size: 15px;
 
-font-weight: 400;
+    font-weight: 400;
 
 }
- .about{
+
+.about {
     padding: 130px;
     border-radius: 10px;
-background: #e7ded7;
- margin: 130px 0px; 
+    background: #e7ded7;
+    margin: 130px 0px;
 
 
 
@@ -178,84 +189,134 @@ background: #e7ded7;
 
 
 }
-.about-info-containar{
-display: flex;
-justify-content: space-around;
+
+.about-info-containar {
+    display: flex;
+    justify-content: space-around;
 }
 
 
-.about-info{
+.about-info {
     text-align: center;
 
 
 
 }
 
-#section{
-   margin: 30px  150px; 
+#section {
+    margin: 30px 150px;
 }
 
 
-.skills-containar{
+.skills-containar {
     display: flex;
     gap: 24px;
 }
 
-.skills{
+.skills {
     /* padding: 25px; */
 
 
     border-radius: 5px;
-background: #FFF;
-box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-.resume-column-titel{
 
-    color:  #474747;
+.resume-column-titel {
+
+    color: #474747;
 
     font-size: 30px;
 
     font-weight: 700;
- 
+
 
 }
 
-.resume-item-educaion{
-    color:  #757575;
+.resume-item-educaion {
+    color: #757575;
 
-font-size: 20px;
+    font-size: 20px;
 
-font-weight: 600;
+    font-weight: 600;
 
 }
 
-.resume-discription{
+.resume-discription {
 
     color: #757575;
 
     font-size: 16px;
-  
+
     font-weight: 400;
-    line-height: 28px; /* 175% */
+    line-height: 28px;
+    /* 175% */
 
 }
 
 
-.resume-containar{
+.resume-containar {
     display: flex;
     gap: 50px;
 }
 
-.resume-containar hr{
+.resume-containar hr {
     margin: 30px;
 }
-.downlod-cv{
-margin-top: 50px;
-text-align: center;
+
+.downlod-cv {
+    margin-top: 50px;
+    text-align: center;
+
+
+}
+
+/* .footer{
+    background: #FFF8F3;
+
+ display: flex;
+
+padding: 130px 200px;
+margin-top: 100px; 
+
+
+} */
+
+.footer {
+
+    display: flex;
+    gap: 100px;
+    background-color: #e7e3e3;
+    margin-top: 100px;
+    padding: 120px 120px;
+}
+
+
+
+.footer-collam {
+    width: 50%;
+}
+
+.section-discription-footer {
+    font-size: 15px;
 
 
 }
 
 
+.contact input,
+textarea {
+    margin-top: 25px;
+
+    padding: 18px 35px;
+
+    color: #757575;
+    border: 0px;
 
 
+
+}
+
+.socla-links {
+    margin: 25px;
+}
